@@ -7,7 +7,7 @@ import { Button } from "@hygraph/baukasten";
 export default function TenantFieldPage() {
 ;
     const { updateInstallation, installation } = useApp();
-    
+    let pepe = useFieldExtension();
     const onInstallApp = () => {
         updateInstallation({
             status: 'COMPLETED',
